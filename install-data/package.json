@@ -1,0 +1,8 @@
+{
+  "name": "coco-handler",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "npm run dev --turbo --prefix front & npm run start:dev --prefix back"
+  }
+}
