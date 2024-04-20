@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/usr/bin/env zsh
 Green='\033[0;32m'
 NC='\033[0m'
 FOLDER='full-stack-template'

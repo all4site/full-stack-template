@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/usr/bin/env zsh
 Green='\033[0;32m'
 NC='\033[0m'
 FOLDER='full-stack-template'
@@ -9,7 +9,6 @@ cd ../../ && mkdir front && cd front &&
 #npm i -D prettier @trivago/prettier-plugin-sort-imports &&
 #rm -rf .eslintrc.json &&
 cd ../${FOLDER}/install-data/front &&
-rm -rf .eslintrc.json &&
 cp -rf *  ../../../front &&
 cp -rf .*  ../../../front &&
 echo "${Green}Finish Front...${NC}"
