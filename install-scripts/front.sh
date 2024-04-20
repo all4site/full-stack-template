@@ -7,5 +7,7 @@ cd ../../ && mkdir front && cd front &&
 npx create-next-app . &&
 npm i -D prettier @trivago/prettier-plugin-sort-imports &&
 cd ../${FOLDER}/install-data/front &&
+rm -rf .eslintrc.json &&
 cp -rf *  ../../../front &&
+cp -rf .*  ../../../front &&
 echo "${Green}Finish Front...${NC}"
