@@ -7,8 +7,7 @@ echo "${Green}Installing Front...${NC}"
 cd ../../ && mkdir front && cd front &&
 npx create-next-app . &&
 npm i -D prettier @trivago/prettier-plugin-sort-imports &&
-rm -rf .eslintrc.json &&
-rm -rf .git &&
+rm -rf .eslintrc.json .git app public &&
 cd ../${FOLDER}/install-data/front &&
 cp -rf *  ../../../front &&
 cp -rf .*  ../../../front &&
