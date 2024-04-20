@@ -5,8 +5,9 @@ FOLDER='full-stack-template'
 
 echo "${Green}Installing Front...${NC}"
 cd ../../ && mkdir front && cd front &&
-npx create-next-app . &&
-npm i -D prettier @trivago/prettier-plugin-sort-imports &&
+#npx create-next-app . &&
+#npm i -D prettier @trivago/prettier-plugin-sort-imports &&
+#rm -rf .eslintrc.json &&
 cd ../${FOLDER}/install-data/front &&
 rm -rf .eslintrc.json &&
 cp -rf *  ../../../front &&
