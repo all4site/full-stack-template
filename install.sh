@@ -6,6 +6,5 @@ echo "${Green}Installing...${NC}"
 cd install-scrips &&
 chmod +x *.sh &&
 ./front.sh &&
-./back.sh
 echo "${Green}Finish...${NC}"
 
