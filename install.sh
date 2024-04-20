@@ -5,7 +5,7 @@ FOLDER='full-stack-template'
 
 echo "${Green}Installing...${NC}"
 git clone https://github.com/all4site/full-stack-template.git &&
-cd ${FOLDER}/install-scrips &&
+cd ${FOLDER}/install-scripts &&
 chmod +x *.sh &&
 ./front.sh &&
 echo "${Green}Finish...${NC}"
