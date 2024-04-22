@@ -3,8 +3,11 @@ Green='\033[0;32m'
 NC='\033[0m'
 FOLDER='full-stack-template'
 
-echo "${Green}Installing Front...${NC}"
+echo "${Green}Installing Back...${NC}"
 cd ../../ && mkdir back && cd back &&
 npm i -g @nestjs/cli && nest new . &&
-
-echo "${Green}All Finish...${NC}"
+rm -rf src/* &&
+cd ../${FOLDER}/install-data/back &&
+cp -rf  src/* ../../../back/src &&
+cp -rf .*  ../../../back &&
+echo "${Green}Finish Back...${NC}"
