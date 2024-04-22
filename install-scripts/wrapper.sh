@@ -4,7 +4,7 @@ NC='\033[0m'
 FOLDER='full-stack-template'
 
 echo "${Green}Installing Wrapper...${NC}"
-cd ../${FOLDER}/install-data/ &&
+cd ${FOLDER}/install-data/ &&
 cp -rf  .gitignore ../../ &&
 cp -rf package.json ../../ &&
 cd ../../ &&
