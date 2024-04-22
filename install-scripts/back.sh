@@ -6,7 +6,7 @@ FOLDER='full-stack-template'
 echo "${Green}Installing Back...${NC}"
 cd ../../ && mkdir back && cd back &&
 npm i -g @nestjs/cli && nest new . &&
-rm -rf src/* &&
+rm -rf src/* && rm -rf .git &&
 cd ../${FOLDER}/install-data/back &&
 cp -rf  src/* ../../../back/src &&
 cp -rf .*  ../../../back &&

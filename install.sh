@@ -7,5 +7,5 @@ echo "${Green}All Installing...${NC}"
 git clone https://github.com/all4site/full-stack-template.git &&
 cd ${FOLDER}/install-scripts &&
 chmod +x *.sh &&
-./back.sh &&
+./wrapper.sh &&
 echo "${Green}All Finish...${NC}"
