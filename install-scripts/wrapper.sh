@@ -7,6 +7,4 @@ echo "${Green}Installing Wrapper...${NC}"
 cd ../install-data/ &&
 cp -rf  .gitignore ../../ &&
 cp -rf package.json ../../ &&
-cd ../../ &&
-rm -rf install.sh full-stack-template
 echo "${Green}Finish Wrapper...${NC}"

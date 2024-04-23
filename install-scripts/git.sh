@@ -12,5 +12,6 @@ git branch -M main &&
 vared -p 'git remote add origin: ' -c link &&
 git remote add origin $link &&
 git push -u origin main &&
+rm -rf install.sh full-stack-template &&
 echo "${Green}Git Finish...${NC}"
 
