@@ -9,7 +9,8 @@ git init &&
 git add . &&
 git commit -m "first commit" &&
 git branch -M main &&
-vared -p 'git remote add origin: ' $link &&
+vared -p 'git remote add origin: ' link &&
+git remote add origin $link &&
 git push -u origin main &&
 echo "${Green}Git Finish...${NC}"
 
