@@ -5,7 +5,7 @@ FOLDER='full-stack-template'
 
 echo "${Green}Installing Front...${NC}"
 cd ../../ && mkdir front && cd front &&
-npx create-next-app . &&
+npx create-next-app . --eslint --ts --no-tailwind --no-src-dir --app --no-import-alias &&
 npm i -D prettier @trivago/prettier-plugin-sort-imports &&
 rm -rf .eslintrc.json .git app public &&
 cd ../${FOLDER}/install-data/front &&
