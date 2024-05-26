@@ -8,6 +8,7 @@ cd ../../ && mkdir front && cd front &&
 npx create-next-app . --eslint --ts --no-tailwind --no-src-dir --app --no-import-alias &&
 npm i -D prettier @trivago/prettier-plugin-sort-imports &&
 rm -rf .eslintrc.json .git app public &&
+chmod 777 createModule.sh &&
 cd ../${FOLDER}/install-data/front &&
 cp -rf *  ../../../front &&
 cp -rf .*  ../../../front &&
